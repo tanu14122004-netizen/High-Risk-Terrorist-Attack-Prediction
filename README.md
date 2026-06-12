@@ -22,4 +22,6 @@ Global Terrorism Database (GTD)
 5. Model Evaluation
 
 ## Results
-Machine learning models were used to identify patterns and classify high-risk terrorist attack incidents.
+- Evaluated Logistic Regression, Decision Tree, Random Forest, and XGBoost.
+- Random Forest achieved the best balance between precision and recall.
+- Key predictors included attack year, suicide attack indicator, attack type, region, and target type.
