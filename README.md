@@ -22,6 +22,11 @@ Global Terrorism Database (GTD)
 5. Model Evaluation
 
 ## Results
-- Evaluated Logistic Regression, Decision Tree, Random Forest, and XGBoost.
-- Random Forest achieved the best balance between precision and recall.
-- Key predictors included attack year, suicide attack indicator, attack type, region, and target type.
+- Evaluated Logistic Regression, Decision Tree, Random Forest, and XGBoost models.
+- Random Forest was selected as the final model due to the best balance between precision and recall.
+- Achieved an overall accuracy of 81%.
+- High-risk class performance:
+  - Precision: 27%
+  - Recall: 68%
+  - F1-Score: 39%
+- Key predictive features included attack year, suicide attack indicator, attack type, region, and target type.
